@@ -1,0 +1,85 @@
+/* App.css */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #444;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+div {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+strong {
+  color: #333;
+}
+
+/* Esto es para simular la tabla, ajustar según sea necesario */
+.table-like {
+  display: grid;
+  grid-template-columns: auto auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.table-like p {
+  margin: 5px 0;
+}
+
+.table-like p:nth-child(odd) {
+  font-weight: bold;
+}
+
+/* Botones y enlaces */
+button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+a {
+  color: #06c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
